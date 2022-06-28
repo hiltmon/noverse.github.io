@@ -1,0 +1,126 @@
+baseURL = "https://noverse.github.io"
+# baseURL = "https://noverse.com"
+canonifyurls = true
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Noverse"
+theme = "noverse"
+author = "Hilton Lipschitz"
+
+MetaDataFormat = "yaml"
+
+enableRobotsTXT = true
+
+googleAnalytics = "UA-4573209-2"
+
+# To Match the old OctoPresss paths
+[permalinks]
+blog = "/blog/:year/:month/:day/:filename/"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "about me"
+  url = "/about/"
+  weight = -100
+  
+  # [[menu.main]]
+  # identifier = "code"
+  # name = "Code"
+  # title = "code"
+  # url = "/code/"
+  # weight = -80
+  
+  # [[menu.main]]
+  # identifier = "products"
+  # name = "Products"
+  # title = "products"
+  # url = "/products/"
+  # weight = -60
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = "blog section"
+  url = "/"
+  weight = -50
+
+  [[menu.main]]
+  identifier = "services"
+  name = "Services"
+  title = "services section"
+  url = "/services"
+  weight = -40
+
+  [[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  title = "archives section"
+  url = "/archives/"
+  weight = -30
+
+#   [[menu.main]]
+#   identifier = "tags"
+#   name = "Tags"
+#   title = "tags section"
+#   url = "/tags/"
+#   weight = -10
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+  
+[markup]
+
+  # To allow html in the article
+  defaultMarkdownHandler = "goldmark"
+  
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+      
+#   [markup.highlight]
+#     codeFences = true
+#     guessSyntax = true
+#     hl_Lines = ""
+#     lineNoStart = 1
+#     lineNos = false
+#     lineNumbersInTable = true
+#     noClasses = true
+#     style = "rrt"
+#     tabWidth = 2
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'xcode'
+    tabWidth = 2
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
