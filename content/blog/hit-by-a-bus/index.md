@@ -46,7 +46,7 @@ I assume that my code is going to be read by others. *I further assume that the 
 
 Before kicking off a project, I document the work to be done in a Statement of Work. It defines *what* the product will do, and is written in such a way that it can and is attached do the contract and is readable and unambiguous to the client. It also makes a great starting point for any replacement.
 
-I write very detailed assembly notes and technical notes that I do not share with clients, but do include in the project folders (See [Project Folder Layout](http://hiltmon.com/blog/2012/06/30/project-folder-layout/)). They exist so I can remember what I did and why I did things, but makes a great resource for those who take projects over from me.
+I write very detailed assembly notes and technical notes that I do not share with clients, but do include in the project folders (See [Project Folder Layout](https://hiltmon.com/blog/2012/06/30/project-folder-layout/)). They exist so I can remember what I did and why I did things, but makes a great resource for those who take projects over from me.
 
 There are notes explaining design decisions, server build processes, development environment setups and weekly notes on all programming done. I even copy in the command lines I use so that anyone can follow them. (See [Assembly Notes](https://hiltmon.com/blog/2013/01/03/assembly-notes/) for more).
 
@@ -60,7 +60,7 @@ I also deliver an additional copy of the current code to clients in a zip file e
 
 All project folders, notes and code is also backed up automatically off-site. Should the bus run over my primary computer too, I can always get back to where I was in seconds on a new device. And of course, clients can get the data from these backups if necessary as well.
 
-For a very few clients, I run a sync of their [Project Folder](http://hiltmon.com/blog/2012/06/30/project-folder-layout/) to *their* servers, putting my current data on *their* file servers and into *their* backup processes as well. Most never seem to even open these folders, but are confident that they are there and up-to-date.
+For a very few clients, I run a sync of their [Project Folder](https://hiltmon.com/blog/2012/06/30/project-folder-layout/) to *their* servers, putting my current data on *their* file servers and into *their* backup processes as well. Most never seem to even open these folders, but are confident that they are there and up-to-date.
 
 ## Learning from Product Transitions
 
