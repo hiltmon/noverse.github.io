@@ -1,5 +1,5 @@
-baseURL = "https://noverse.github.io"
-# baseURL = "https://noverse.com"
+# baseURL = "https://noverse.github.io"
+baseURL = "https://noverse.com"
 canonifyurls = true
 languageCode = "en-us"
 DefaultContentLanguage = "en"
