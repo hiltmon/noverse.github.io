@@ -11,7 +11,8 @@ MetaDataFormat = "yaml"
 
 enableRobotsTXT = true
 
-googleAnalytics = "UA-4573209-2"
+# googleAnalytics = "UA-4573209-2"
+googleAnalytics = "G-5DB0RK2CLR"
 
 # To Match the old OctoPresss paths
 [permalinks]
