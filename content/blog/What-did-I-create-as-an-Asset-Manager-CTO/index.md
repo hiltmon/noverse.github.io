@@ -1,7 +1,7 @@
 ---
 title: "What Did I Create as an Asset Manager CTO"
 date: 2022-09-12T14:32:09-04:00
-draft: true
+draft: false
 ---
 
 In this post, I am going to share what I built as [CTO](https://noverse.com/blog/2012/10/05/the-hedge-fund-cto-role/) for the three Asset Managers I worked for over the past 22 years. I have created this page as a result of people asking for more information on what I actually did build, now that I have moved on from my third role.
