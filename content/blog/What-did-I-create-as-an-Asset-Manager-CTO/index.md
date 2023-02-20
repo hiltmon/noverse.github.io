@@ -67,7 +67,7 @@ There I built my first full front-to-back platform, including:
 - Was amongst the first to apply automated and algorithmic models to automated, cross-national trading, writing our own pricing models
 - Was amongst the first to provide full investor reporting transparency, allowing investors to log securely into a public web site to see and download their daily performance and NAV
 - Integration with risk systems and regulatory systems and the ability to automate hedging and financing transactions
-	
+
 ## How did I manage all this?
 
 *Or in other words, how come these projects did not fail like most large, complex, broad IT projects?*
